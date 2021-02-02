@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+   border-radius: 3px;
+}
+
+body{
+  position: relative;
+  background-image: url(back.jpg);
+  background-size: cover;
+}
+
+
+.Corpo{
+  position: absolute;
+  left: 300px; top: 30px;
+  border: 1px solid black ;
+  height: 650px;
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Corpo img {
+   height: 100px;
+   width: 200px;
+   margin-top: 30px;
+   margin-left: 350px;
+}
+
+h1 {
+  height: auto;
+  width: 400px;
+  color: #00ff00;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+ .Sbarra {
+   height: 50px;
+   width: 800px;
+   margin-left: 50px;
+   margin-top: 10px;
+   background-color: #00ff00;
+   padding-left: 250px;
+   padding-top: 15px;
+}
+
+.Indicazioni {
+  color: white ;
+  height: 75px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#Green {
+  height: 20px;
+  width: 250px;
+  background-color: green ;
+}
+
+ #red {
+   height: 20px;
+   width: 100px;
+   background-color: red ;
+ }
+
+#orange {
+  height: 20px;
+  width: 400px;
+  background-color: orange ;
+}
